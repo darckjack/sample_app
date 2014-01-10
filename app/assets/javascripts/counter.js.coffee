@@ -1,18 +1,5 @@
 $ ->
   
-  # Definimos variables que utilizaremos
-  #
-  #   value: En ella almacenaremos cuantos caracteres hay en el
-  #          área de content.
-  #
-  #   counter: Almacenará el número de caracteres restantes,
-  #             descontando el value actual desde el máximo (140).
-  #
-  #   parrafo: Almacenará en que tipo de clase (estilo) se mostrará el
-  #            content (verde si no se ha pasado el límite, rojo si se
-  #            sobrepasado).
-  #
-  #
   value = undefined
   counter = undefined
   parrafo = undefined
