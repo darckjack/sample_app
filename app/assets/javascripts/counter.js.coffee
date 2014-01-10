@@ -18,7 +18,6 @@ $ ->
   parrafo = undefined
   
   # Mostramos un content inicial y lo añadimos al div de id counter.
-  $("<p class=\"indicator\">You have 140 remaining characters</p>").appendTo "#counter"
   
   # Definimos el evento para que detecte cada vez que se presione una tecla.
   $("#content").keydown ->
