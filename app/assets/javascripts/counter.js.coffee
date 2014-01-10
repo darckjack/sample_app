@@ -32,10 +32,10 @@ $ ->
     
     # Tomamos el value actual del contenido del área de contento
     value = $("#content").val().length
-    
+
     # Descontamos ese value al máximo.
     counter = counter - value
-    
+        
     # Dependiendo de cuantos caracteres quedan, mostraremos el content de una
     #   u otra forma (lo definiremos a continuación mediante CSS 
     if counter < 0
@@ -45,4 +45,3 @@ $ ->
     
     # Mostramos el content con el número de caracteres restantes.
     $("#counter").append parrafo + "You have " + counter + " remaining characters</p>"
-
